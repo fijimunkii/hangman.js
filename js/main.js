@@ -100,6 +100,8 @@ function startTheGame() {
 
       // reveal the secret word
       hangman.progress = hangman.secretBackup;
+      var answer = document.getElementsByClassName('answer')[0];
+      answer.style.color = '#af111c';
       loadProgress();
     }
     timeLeft --;
