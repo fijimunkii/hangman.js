@@ -27,6 +27,7 @@ body {
 .menu-item {
   text-align: center;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .letters {
